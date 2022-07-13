@@ -1,0 +1,443 @@
+﻿@charset "gb2312";
+html, body {
+*overflow-y:auto;
+  height: 100%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-y: hidden;
+}
+body {
+  font-size: 62.5%;
+  color: #666;
+  background: #FFF;
+  line-height: 24px;
+}
+html>body {
+  font-size: 12px;
+}
+fieldset, img {
+  border: 0;
+}
+ol, ul {
+  list-style: none;
+}
+ul, li {
+  list-style: none;
+  list-style-type: none;
+  list-style-position: outside;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+em {
+  font-style: normal;
+}
+input, button, select, textarea {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+html, body {
+  background-color: #FFF;
+  height: 100%;
+}
+body, td, th {
+  font-size: 9pt;
+  color: #000000;
+}
+a:link, a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #0000FF;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+#container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+.blank {
+  font-size: 5px;
+  height: 10px;
+}
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
+#lib_Tab1_sx {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  height: 100%;
+}
+.lib_tabborder_sx {
+}
+.lib_Menubox_sx {
+  line-height: 28px;
+  position: relative;
+  float: left;
+  /*background-color: #252733;*/
+  width: 250px;
+  height: 100%;
+}
+#xxxpan-style:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../images/game.png) no-repeat center bottom;
+  z-index:1
+}
+#xxxpan-style:after {
+  content: "";
+  top:0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #1F77D0;
+  background: -moz-linear-gradient(top, #4083c8 0%, #554cc5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4083c8), color-stop(100%, #554cc5));
+  background: -webkit-linear-gradient(top, #4083c8 0%, #554cc5 100%);
+  background: -o-linear-gradient(top, #4083c8 0%, #554cc5 100%);
+  background: -ms-linear-gradient(top, #4083c8 0%, #554cc5 100%);
+  background: linear-gradient(to bottom, #4083c8 0%, #554cc5 100%);
+  background-size: 150% 150%;
+}
+.lib_Menubox_sx ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+.lib_Menubox_sx li {
+  display: block;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 5px 15px;
+  opacity: .86;
+  border-radius: 4px;
+  position: relative;
+}
+.lib_Menubox_sx li.visited {
+  padding: 0px;
+  border-right: 0;
+  color: #FFF;
+  height: 60px;
+  line-height: 60px;
+  background: #2a497e;
+  /*background: rgba(0, 0, 0, 0.5);*/
+}
+.lib_Menubox_sx li.hover {
+  padding: 0px;
+  border-right: 0;
+  color: #FFF;
+  height: 60px;
+  line-height: 60px;
+  background: #2a497e;
+  /*background: url(../images/nav_leng.png) 0 -64px;*/
+}
+.lib_Menubox_sx li .link2 a:hover span{
+  color:#ff0;
+}
+.lib_Contentbox_sx {
+  margin-top: 0px;
+  border-top: none;
+  padding: 0 0px;
+  border-left: 0;
+  margin-left: 130px;
+  overflow: hidden;
+  height: 100%
+}
+.lib_Menubox_sx li .link1 {
+  height: 60px;
+}
+.lib_Menubox_sx li .link1 a,.lib_Menubox_sx li#one:hover .link1 a{
+  line-height: 60px;
+}
+.lib_Menubox_sx li:hover .link1 a{
+  line-height: 40px;
+  padding-bottom:20px;
+}
+.lib_Menubox_sx li .link2 {
+  display: none;
+}
+.lib_Menubox_sx li:hover .link2 {
+  display: inline-block;
+  position: absolute;
+  left: 63px;
+  line-height: 40px;
+  bottom: 0;
+}
+.lib_Menubox_sx li:hover a:hover {
+  /*color: #FF0;*/
+  color:#0F0
+}
+.lib_Menubox_sx li .link1{
+  background-position: left 15px;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+  padding-left: 38px;
+  text-align: left;
+}
+.lib_Menubox_sx p a {
+  color: #336666;
+}
+.lib_Menubox_sx p a:hover {
+  color: #FF9900;
+}
+.lib_Menubox_sx .link1 a {
+  display: block;
+  width:100%;
+}
+.lib_Menubox_sx li div#left {
+  margin-left: 0;
+  padding-left: 0;
+}
+.lib_Menubox_sx #home {
+  background-image: url(../images/home.png);
+}
+.lib_Menubox_sx #home1 {
+  background-image: url(../images/home1.png);
+}
+.lib_Menubox_sx #home2 {
+  background-image: url(../images/home2.png);
+}
+.lib_Menubox_sx #home3 {
+  background-image: url(../images/home3.png);
+}
+.lib_Menubox_sx #home4 {
+  background-image: url(../images/home4.png);
+}
+.lib_Menubox_sx #home16 {
+  background-image: url(../images/home16.png);
+}
+.lib_Menubox_sx #home5 {
+  background-image: url(../images/home5.png);
+}
+.lib_Menubox_sx #home6 {
+  background-image: url(../images/home6.png);
+}
+.lib_Menubox_sx #home7 {
+  background-image: url(../images/home7.png);
+}
+.lib_Menubox_sx #logo {
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 10;
+  position: relative;
+}
+.lib_Menubox_sx #logo #left {
+  width: 80px;
+  float: left;
+  text-align: right;
+}
+.lib_Menubox_sx #logo #right {
+  width: 170px;
+  margin-top: 20px;
+  float: left;
+  font-family: "微软雅黑", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  color: #FFF;
+}
+.lib_Menubox_sx .logodef {
+  background: none;
+  opacity: 1;
+}
+.lib_Menubox_sx .logohover {
+  background: none;
+}
+.lib_Menubox_sx p {
+  padding-left: 38px;
+  color: #336666;
+  line-height: 21px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+.lib_Menubox_sx p img {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.lib_Menubox_sx p a {
+  color: #336666;
+}
+.lib_Menubox_sx p a:hover {
+  color: #FF9900;
+}
+#containerRight {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #FFF;
+  position: relative;
+  /*  height: auto;*/
+  min-height: 100%
+}
+ul, li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  border: 0;
+}
+.focus {
+  width: 1000px;
+  margin: 0 auto;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+}
+.focus ul {
+  height: 380px;
+  position: absolute;
+}
+.focus ul li {
+  float: left;
+  width: 1000px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.focus ul li img {
+  width: 1000px;
+  height: 340px;
+}
+.focus ul li div {
+  position: absolute;
+  overflow: hidden;
+}
+.focus .btnBg {
+  position: absolute;
+  width: 1000px;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  display: none;
+}
+.focus .btn {
+  position: absolute;
+  width: 980px;
+  height: 23px;
+  padding: 0px 10px 0px 10px;
+  right: 0;
+  bottom: 6px;
+  text-align: right;
+}
+.focus .btn span {
+  display: inline-block;
+  _display: inline;
+  _zoom: 1;
+  width: 25px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  _font-size: 0;
+  margin-left: 5px;
+  cursor: pointer;
+  background: #fff;
+}
+.focus .btn span.on {
+  background: #fff;
+}
+.focus .preNext {
+  width: 45px;
+  height: 100px;
+  position: absolute;
+  top: 90px;
+  /*background: url(../images/sprite.png) no-repeat 0 0;*/
+  cursor: pointer;
+}
+.focus .pre {
+  left: 0;
+}
+.focus .next {
+  right: 0;
+  background-position: right top;
+}
+.list {
+  font-family: "微软雅黑", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #BE2C23;
+}
+.list h1 {
+  text-align: center;
+  font-size: 22px;
+}
+.list h4 {
+  text-indent: 2em;
+}
+#main {
+  padding-bottom: 140px;
+  width: 1000px;
+  margin: 0 auto;
+}
+#xxxpan{
+  display:table;
+  position: absolute;
+  width: calc(100% - 250px);
+  height: -webkit-fill-available;
+  min-height:100%;
+  top: 0;
+  background: #000;
+  overflow:hidden;
+}
+.lib_Menubox_sx a {
+  display: block;
+  width: 100%;
+}
+.xxxpan-text {
+  animation: change 5s infinite;
+  font-weight: 800;
+}
+@keyframes change {
+0% {
+color:#FFFF00;
+}
+25% {
+color:#00FF00;
+}
+50% {
+color:#00FFFF;
+}
+75% {
+color:#00FF00;
+}
+100% {
+color:#FFFF00;
+}
+}
